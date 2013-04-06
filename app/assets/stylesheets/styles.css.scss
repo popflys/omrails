@@ -2,15 +2,90 @@
 $baseFontFamily: Oxygen;
 */
 
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
+$navbarBackgroundHighlight: #3a3a3a;
+$navbarBackground: #3a3a3a;
 
-$btnPrimaryBackground: green;
+$btnPrimaryBackground: #bdcf97;
+
+$linkColor: #bdcf97;
+$navbarlinkColor: #bdcf97;
 
 @import 'bootstrap';
 
 body {
-	padding: 60px 0;
+	padding: 60px 0 0;
+}
+
+.btn-primary {
+	color: #444;
+	font-size: 1.2em;
+}
+
+.btn-large {
+	padding: 11px 19px 13px;
+}
+
+.brand {
+	background-image: url('/images/pistonportbeta.png');
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 157px;
+	text-indent: -9999px;
+	position: relative;
+	top: 15px;
+	padding: 22px 20px 0 !important;
+	margin-left: 0px !important;
+}
+
+.nav {
+	top: 6px;
+}
+
+.navbar .nav > li > a {
+	color: #bdcf97;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+	color: white;
+}
+
+.fullWidthImage {
+	background-image: url('/images/backgroundimage.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+	top: -8px;
+}
+
+.hero-unit {
+	margin: 40px 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+	text-align: center;
+	color: #bdcf97;
+}
+
+.welcomeText {
+	font-weight: 100;
+	letter-spacing: .07em;
+}
+
+.bannerLogo {
+	background-image: url('/images/pistonportbanner.png');
+	background-repeat: no-repeat;
+	width: 451px;
+	height: 85px;
+	margin: 0 auto;
+}
+
+.enthusiastsLogos {
+	background-image: url('/images/motorcylesexample.png');
+	background-repeat: no-repeat;
+	width: 597px;
+	height: 47px;
+	margin: 20px auto 40px;
 }
 
 @import 'bootstrap-responsive';
