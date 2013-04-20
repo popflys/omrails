@@ -50,6 +50,12 @@ body {
 	color: white;
 }
 
+.fullWidth {
+	background-repeat: no-repeat;
+	position: relative;
+	top: -8px;
+}
+
 .fullWidthImage {
 	background-image: url('/images/backgroundimage.jpg');
 	background-repeat: no-repeat;

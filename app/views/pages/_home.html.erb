@@ -1,10 +1,14 @@
 <% if user_signed_in? %>
 
 <% else %>
-<div class="hero-unit">
-		<div class="bannerLogo"></div>
-		<h2 class="welcomeText">Welcome to Piston Port. <br/>Bringing together the 2 wheeled community.<br/>All brands and all engine types are welcome.</h2>
-		<div class="enthusiastsLogos"></div>
-		<p><%= link_to "sign up", new_user_registration_path, class: "btn btn-primary btn-large" %></p>
+<div class="fullWidthImage">
+	<div class="container">
+		<div class="hero-unit">
+				<div class="bannerLogo"></div>
+				<h2 class="welcomeText">Welcome to Piston Port. <br/>Bringing together the 2 wheeled community.<br/>All brands and all engine types are welcome.</h2>
+				<div class="enthusiastsLogos"></div>
+				<p><%= link_to "sign up", new_user_registration_path, class: "btn btn-primary btn-large" %></p>
+		</div>
+	</div>
 </div>
 <% end %>
